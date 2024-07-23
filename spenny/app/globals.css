@@ -7,10 +7,11 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #fafafa;
   min-height: 100vh;
   margin: 0;
   font-family: "Lato", sans-serif;
+  color: #212121;
 }
 
 .container {
@@ -23,7 +24,7 @@ body {
 }
 
 .navbar {
-  background: #000;
+  background: #1a237e;
   color: #fff;
 }
 
@@ -134,7 +135,7 @@ input[type="number"] {
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #1a237e;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
@@ -146,7 +147,7 @@ input[type="number"] {
 }
 
 .btn:hover {
-  background-color: #7057f1;
+  background-color: #3a44a8;
 }
 
 .btn:focus,
