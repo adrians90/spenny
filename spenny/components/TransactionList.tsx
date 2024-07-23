@@ -10,7 +10,7 @@ const TransactionList = async () => {
   }
   return (
     <>
-      <h3>History</h3>
+      <h3>Spending history</h3>
       <ul className="list">
         {transactions &&
           transactions.map((transaction: Transaction) => (

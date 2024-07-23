@@ -20,12 +20,12 @@ const AddTransaction = () => {
       <h3>Add transaction</h3>
       <form ref={formRef} action={clientAction}>
         <div className="form-control">
-          <label htmlFor="text">Text</label>
+          <label htmlFor="text">Description</label>
           <input
             type="text"
             id="text"
             name="text"
-            placeholder="Enter text..."
+            placeholder="Enter description..."
           />
         </div>
         <div className="form-control">
